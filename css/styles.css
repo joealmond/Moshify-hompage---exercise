@@ -589,6 +589,25 @@ a {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .callout {
+    width: 80%;
+    position: absolute;
+  }
+
+  .callout-dark {
+    background: #232323;
+    height: calc(20vh - 10vmin);
+    margin-top: 10%;
+  }
+
+  .callout__middle {
+    font-size: 1.5rem;
+    margin: calc(5vh - 15vmin) auto;
+    left: 10%;
+  }
+}
+
 /* Collapsibles */
 
 .collapsible__header {
